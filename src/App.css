@@ -22,9 +22,13 @@
 .App-link {
   color: #61dafb;
 }
-.image container {
-  margin-right: 200px;
+.wrapper{
+height: 100vh;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
